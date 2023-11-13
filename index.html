@@ -3,10 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CineMe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CineMe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/jass.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
+
 
 <body>
     <header>
@@ -14,14 +19,29 @@
     </header>
 
     <section class="hero"></section>
-    <!-- <h2 id="searchTitle">Search for Movies</h2> -->
-    
-    <!-- The form below relates to the search bar function - This form will allow JS code for inputting film title -->
-    <form id="form">
-        <input type="text" id="search" placeholder="Search for Movies" class="search"/>
-    </form>
 
-    <main>
+    <h2 id="searchTitle">Search for Movies</h2>
+    <!-- <h2 id="searchTitle">Search for Movies</h2> -->
+
+    <!-- The form below relates to the search bar function - This form will allow JS code for inputting film title -->
+    <body>
+        <div class="flex-row align-center justify-center min-100-vh bg-primary">
+          <div class="col-12 col-md-9 flex-column align-center bg-light p-5">
+            <h1 class="text-primary">Movie search engine</h1>
+            <form id="search-form" class="form w-100">
+              <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
+              <select id="format-input" class="form-input w-100">
+                <option value="" disabled selected>Select a format...</option>
+                <option value="Title">Title</option>
+                <option value="Genre">Genre</option>
+                <option value="Year">Year</option>
+                  </select>
+              <button class="btn btn-info btn-block">Click Me</button>
+            </form>
+          </div>
+        </div>
+      
+       <main>
 
             <p id="description">CineMe is a user friendly interface that allows you to navigate and find movies easily.</p>
 
@@ -52,8 +72,6 @@
             
 
         </main>
-
     <script src="assets/js/script.js"></script>
 </body>
 </html>
-
