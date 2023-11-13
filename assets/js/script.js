@@ -1,4 +1,5 @@
 
+
 var searchForm = document.getElementById('#searchForm2');
 var searchInput = document.getElementById('#searchInput-2');
 var searchResults = document.getElementById('#searchResults');
