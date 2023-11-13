@@ -8,6 +8,7 @@
       const searchQuery = searchInput.value;
     });
 
+
 function findFilm(event) {
         // This event is needed to stop page refreshing and clearing input. Do not remove.
     event.preventDefault();
@@ -32,12 +33,7 @@ try {
 } catch (error) {
 	console.error(error);
 }
-    // fetch(url) 
-    // .then(function (response) {
-    //     return response.json();
-    // })
-}
-// film(respData.results);
+
 
 function film(movies) {
     // clear main
