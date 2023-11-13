@@ -1,7 +1,7 @@
 
-var searchForm = document.getElementById('searchForm');
-var searchInput = document.getElementById('searchInput');
-var searchResults = document.getElementById('searchResults');
+var searchForm = document.getElementById('#searchForm2');
+var searchInput = document.getElementById('#searchInput-2');
+var searchResults = document.getElementById('#searchResults');
 var tvMazeAPIEl = 'Jdep9pFBwdLLZclOFukZ_VSdjGBpRrLw ';
 
 searchForm.addEventListener('submit', function(event) {
@@ -16,6 +16,8 @@ searchForm.addEventListener('submit', function(event) {
       // Filter the movie data based on the search query
       const filteredResults = data.filter(result => result.show.name.toLowerCase().includes(searchQuery.toLowerCase()));
 
+      console.log(response);
+      
       // Display the filtered movie results to the user
       searchResults.innerHTML = '';
       filteredResults.forEach(result => {
