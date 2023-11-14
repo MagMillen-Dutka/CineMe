@@ -11,7 +11,7 @@ So that I can choose one that I like to watch
 ## Acceptance Criteria
 When a user opens the application they should be able to see:
 * A title for the application.
-* A search bar to search by movie title, genre or year of release.
+* A search bar to search by movie title.
 * An image detailing film characters by famous actors / actresses.
 * A description of the application for users to see.
 * Images of top-trending films.

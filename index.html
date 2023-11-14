@@ -26,34 +26,35 @@
     <header class="w3-container w3-black">
         <h1 id="Cine-Me" class="w3-center w3-text-white w3-cursive" style="font-size: 50px;">CineMe</h1>
     </header>
-
+    
     <section class="hero">
-
-
+        <section class="banner w3-display-middle">
+            <div id="search-section">
+                <form id="search-form" class="search-form form w-100">
+                    <input id="search-input" class="form-input w-100 w3-round" type="text" placeholder="Search film title!">
+                    <button class="btn btn-info btn-block w3-round">Submit</button>
+                </form>
+            </div>
+        </section>
     </section>
+
     <p id="description" class="w3-card w3-border">CineMe; The app that allows you to effortlessly find movies and unlock
-        information, including ratings from various sources. Streamline your movie choices by accessing valuable
-        insights and ratings so you
-        can enjoy watching a new movie in just a few moments!
+        information, including ratings from various sources. 
+        <br>
+        Streamline your movie choices by accessing valuable
+        insights and ratings so you can enjoy watching a new movie in just a few moments!
     </p>
 
     <!-- The form below relates to the search bar function - This form will allow JS code for inputting film title -->
-
+<!-- 
     <section class="banner">
         <div id="search-section">
-            <!-- <h2 class="text-primary">Movie search engine</h2> -->
-            <form id="search-form" class="form w-100">
-                <input id="search-input" class="form-input w-100" type="text" placeholder="Search film title!">
-                <!-- <select id="format-input" class="form-input w-100">
-                    <option value="" disabled selected>Select a format...</option>
-                    <option value="Title">Title</option>
-                    <option value="Genre">Genre</option>
-                    <option value="Year">Year</option>
-                </select> -->
-                <button class="btn btn-info btn-block">Submit</button>
+            <form id="search-form" class="search-form form w-100">
+                <input id="search-input" class="form-input w-100 w3-round" type="text" placeholder="Search film title!">
+                <button class="btn btn-info btn-block w3-round">Submit</button>
             </form>
         </div>
-    </section>
+    </section> -->
 
 
     <main>
@@ -61,7 +62,7 @@
         <h3 id="boxOffice">Top 4 Box Office Movies This Month</h3>
 
         <ul class="imageList">
-            <li id="image1">
+            <li id="image1" class="w3-panel w3-border-black">
                 <a href="image1.html">
                     <img src="assets/css/images/five nights at freddy.jpg"
                         alt="Movie poster of Five Nights at Freddy's">

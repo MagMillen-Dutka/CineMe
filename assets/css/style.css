@@ -15,7 +15,7 @@ body {
     top: -150%; 
     background-color: rgba(121, 123, 125, 0.7);
     padding: 20px;
-    width: 50%; 
+    width: auto; 
     border-radius: 10px; 
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .banner {
-    height: 300px; 
+    height: auto; 
     display: flex;
     align-items: center;
     justify-content: center;
