@@ -15,13 +15,14 @@ body {
     top: -150%; 
     background-color: rgba(121, 123, 125, 0.7);
     padding: 20px;
-    width: 80%; 
+    width: 50%; 
     border-radius: 10px; 
 }
 
 #search-form {
     max-width: 400px; 
     margin: 0 auto;
+    border-radius: 3px 3px 3px 3px;
 }
 
 .banner {
