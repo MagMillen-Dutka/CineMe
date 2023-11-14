@@ -31,3 +31,26 @@ searchForm.addEventListener('submit', function(event) {
       console.error('Error:', error);
     });
 });
+
+// Code below here is for showing the rating - Needs amendments to fit code above
+
+const APIURL = "https://api.themoviedb.org/3/discover/movie?api_key=04c35731a5ee918f014970082a0088b1";
+const IMGPATH = "https://image.tmdb.org/t/p/w1280";
+const SEARCHAPI =
+"https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
+
+const main = document.getElementById("content");
+const form = document.getElementById("form");
+const search = document.getElementById("search");
+
+// Code missing here to tie the 2nd API to the vote code below.
+
+    function getClassByRate(vote) {
+    if (vote >= 8) {
+    return "green";
+    } else if (vote >= 5) {
+    return "orange";
+    } else {
+    return "red";
+    }
+    }
