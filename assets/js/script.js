@@ -13,14 +13,27 @@ searchForm.addEventListener('submit', function(event) {
   fetch(`https://api.tvmaze.com/search/shows?q=${searchQuery}`)
     .then(response => response.json())
     .then(data => {
+    for(var i=0; i<data.length; i++){
+        console.log(data[i].show.image.medium)
+        var showCard =document.createElement('img');
+        searchResults.appendChild(showCard);
+        showCard.setAttribute("src",`${data[i].show.image.medium}`)
+
+        var showTitle = document.createElement('h2')
+        showTitle.textContent = `${data[i].show.name}`
+        searchResults.appendChild(showTitle)
+        console.log(showTitle)
+
+    }
       // Filter the movie data based on the search query
       const filteredResults = data.filter(result => result.show.name.toLowerCase().includes(searchQuery.toLowerCase()));
 
       console.log(data);
+     //console.log(filteredResults);
 
       
       // Display the filtered movie results to the user
-      searchResults.innerHTML = '';
+      //searchResults.innerHTML = '';
       filteredResults.forEach(result => {
         const resultElement = document.createElement('div');
         resultElement.textContent = result.show.name;
@@ -28,7 +41,7 @@ searchForm.addEventListener('submit', function(event) {
       });
     })
     .catch(error => {
-      console.error('Error:', error);
+     console.error('Error:', error);
     });
 });
 
