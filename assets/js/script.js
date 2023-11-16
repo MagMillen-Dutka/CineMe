@@ -32,22 +32,7 @@ searchForm.addEventListener('submit', function(event) {
             location.href = `${data[i].url}`;
         };
         searchResults.appendChild(showCard);
-        // a.appendChild(link);
-        // a.title = "Click here to view show!";
-        // a.href = `${data[i].show.url}`;
-        // document.cardsContainer.prepend(a);
         
-        // var showCard = document.createElement('img');
-        // searchResults.appendChild(showCard);
-        // showCard.setAttribute("src",`${data[i].show.image.medium}`);
         
     }})
 });
-
-// var a = document.createElement('a');
-// var link = document.createTextNode("Click here to view show!");
-
-// var showLocation = document.createElement('h6');
- // showLocation.textContent = `${data[i].show.url}`
- // searchResults.appendChild(showLocation)
-        // console.log(showLocation)
