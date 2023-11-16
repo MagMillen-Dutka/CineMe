@@ -21,8 +21,8 @@ No instalation is required simply search for the website.
 
 Users on the website can view reviews of movies and shows from external reviewing website, presenting an overall community-driven rating. These ratings often serve as a quick reference for potential viewers, offering insights into the general consensus on a particular piece of content. Users typically visit these websites to discover new content, get a sense of popular movies, and gauge the quality of productions before investing their time.
 
-![Search Title](image.png)
-![Receive Results](image-1.png)
+![**Screenshot**](assets/images/image.png)
+![**Screenshot 2**](assets/images/image-1.png)
 
 ## Our Difficulties
 
