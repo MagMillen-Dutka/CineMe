@@ -1,6 +1,6 @@
 var searchForm = document.getElementById('search-form');
 var searchInput = document.getElementById('search-input');
-var searchResults = document.getElementById('search-results');
+var searchResults = document.getElementById('cardsContainer');
 var tvMazeAPIEl = 'Jdep9pFBwdLLZclOFukZ_VSdjGBpRrLw ';
 
 searchForm.addEventListener('submit', function(event) {
@@ -25,15 +25,29 @@ searchForm.addEventListener('submit', function(event) {
         searchResults.appendChild(showRating)
         console.log(showRating)
 
-        var showLocation = document.createElement('h6')
-        showLocation.textContent = `${data[i].show.url}`
-        searchResults.appendChild(showLocation)
-        console.log(showLocation)
-
+      
         var showCard = document.createElement('img');
-        searchResults.appendChild(showCard);
         showCard.setAttribute("src",`${data[i].show.image.medium}`);
+        showCard.onclick = function() {
+            location.href = `${data[i].url}`;
+        };
+        searchResults.appendChild(showCard);
+        // a.appendChild(link);
+        // a.title = "Click here to view show!";
+        // a.href = `${data[i].show.url}`;
+        // document.cardsContainer.prepend(a);
+        
+        // var showCard = document.createElement('img');
+        // searchResults.appendChild(showCard);
+        // showCard.setAttribute("src",`${data[i].show.image.medium}`);
         
     }})
-    
 });
+
+// var a = document.createElement('a');
+// var link = document.createTextNode("Click here to view show!");
+
+// var showLocation = document.createElement('h6');
+ // showLocation.textContent = `${data[i].show.url}`
+ // searchResults.appendChild(showLocation)
+        // console.log(showLocation)
