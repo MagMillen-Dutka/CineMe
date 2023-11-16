@@ -21,6 +21,12 @@ No instalation is required simply search for the website.
 
 Users on the website can view reviews of movies and shows from external reviewing website, presenting an overall community-driven rating. These ratings often serve as a quick reference for potential viewers, offering insights into the general consensus on a particular piece of content. Users typically visit these websites to discover new content, get a sense of popular movies, and gauge the quality of productions before investing their time.
 
+Please find the source code located here in repository: 
+https://github.com/MagMillen-Dutka/CineMe
+
+Deployed website can be found here: 
+https://magmillen-dutka.github.io/CineMe/
+
 ![**Screenshot**](assets/images/image.png)
 ![**Screenshot 2**](assets/images/image-1.png)
 
