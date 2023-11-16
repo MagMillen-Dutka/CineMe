@@ -1,5 +1,21 @@
 # CineMe - A user friendly front-end application
 
+
+- [UserStory](#user-story)
+- [Description](#description)
+- [ProjectElements](#projects-elements)
+- [OurMotivation](#our-motivation)
+- [Installation](#installation)
+- [Usage](#usage)
+- [OurDifficulties](#our-difficulties)
+- [OurSuccesses](#our-successes)
+- [OurFutureTargets](#Our-Future-Targets)
+- [ProjectElements](#projects-elements)
+- [AcceptanceCriteria](#acceptance-criteria)
+- [Licenses](#license)
+- [Credits](#credits)
+
+
 ## Description
 
 A user friendly application designed to view different ratings of Tv shows to help you decide the show you want to watch. 
@@ -21,6 +37,10 @@ No instalation is required simply search for the website.
 
 Users on the website can view reviews of movies and shows from external reviewing website, presenting an overall community-driven rating. These ratings often serve as a quick reference for potential viewers, offering insights into the general consensus on a particular piece of content. Users typically visit these websites to discover new content, get a sense of popular movies, and gauge the quality of productions before investing their time.
 
+Please find the source code located here in repository: https://github.com/MagMillen-Dutka/CineMe
+
+Deployed website can be found here: https://magmillen-dutka.github.io/CineMe/
+
 ![Search Title](image.png)
 ![Receive Results](image-1.png)
 
@@ -38,7 +58,15 @@ Users on the website can view reviews of movies and shows from external reviewin
 
 ## Our Successes
 
--
+Although we have encountered many difficulties this does not mean it is a failed project in fact many of our difficulties embraced change and improvements to our output in the project.
+
+-We are ambitious to connect persoanly with the project and as a whole team meaning development is not over. 
+
+-Taught and learnt with each others knowledge and mistakes. To continue our collaboration.
+
+-Able to fetch API results from key website depending on the searched title with no errors.
+
+-Learning the depths/importance of git commits as well as the github platform itself. Creating and progressing tickets to communicate passively on our progress. Learnt reviewing requests and meaning of attributes.
 
 ## Our Future Targets
 
@@ -53,26 +81,6 @@ Users on the website can view reviews of movies and shows from external reviewin
 -Speaking of tailord experience, we would like to expand on unique search ways such as genres, year of makes and rating districts. Users can also follow these segments to see any new releases.
 
 -Branching out to actor/actress biographies. Creating wider usage on discussions and expansion on unique topics.
-
-## Acceptance Criteria
-When a user opens the application they should be able to see:
-* A title for the application.
-* A search bar to search by movie title.
-* An image detailing film characters by famous actors / actresses.
-* A description of the application for users to see.
-* Images of top-trending films.
-* Upon searching for a film the user will be presented with the title, a brief description and a rating for the film.
-
-## License
-
-* MIT License
-
-## Credits
-Ali Kocaman - KDragonuv [GitHub]
-Nasteha Hassann - nastehahassann [GitHub]
-Obiora Ezeasor - Obi1Knube [GitHub]
-
-
 
 ## Projects Elements:
 
@@ -94,4 +102,24 @@ Obiora Ezeasor - Obi1Knube [GitHub]
 
 * Quality README (description, technologies used, screenshot, and link to deployed application).
 
-* Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+## Acceptance Criteria
+
+When a user opens the application they should be able to see:
+* A title for the application.
+* A search bar to search by the show title.
+* An image detailing film characters by famous actors / actresses.
+* A description of the application for users to see.
+* Images of top-trending films.
+* Upon searching for a film the user will be presented with the title, a brief description and a rating for the film.
+
+## License
+
+* MIT License
+
+## Credits
+
+Ali Kocaman - KDragonuv [GitHub] https://github.com/KDragonuv 
+Nasteha Hassann - nastehahassann [GitHub] https://github.com/nastehahassann 
+Obiora Ezeasor - Obi1Knube [GitHub] https://github.com/Obi1knube 
+Mag Millen-Dutka - MagMillen-Dutka [GitHub] https://github.com/MagMillen-Dutka 
+
