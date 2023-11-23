@@ -40,8 +40,8 @@ Please find the source code located here in repository: https://github.com/MagMi
 
 Deployed website can be found here: https://magmillen-dutka.github.io/CineMe/
 
-![Search Title](assets/images/image.png)
-![Receive Results](assets/images/image-1.png)
+![Search Title](./assets/images/image.png)
+![Receive Results](./assets/images/image-1.png)
 
 ## Our Difficulties:
 
@@ -59,7 +59,7 @@ Deployed website can be found here: https://magmillen-dutka.github.io/CineMe/
 
 Although we have encountered many difficulties this does not mean it is a failed project in fact many of our difficulties embraced change and improvements to our output in the project.
 
-- We are ambitious to connect persoanly with the project and as a whole team meaning development is not over. 
+- We've been ambitious to connect personaly with the project and as a whole team meaning development is not over. 
 
 - Taught and learnt with each others knowledge and mistakes. To continue our collaboration.
 
@@ -83,13 +83,13 @@ Although we have encountered many difficulties this does not mean it is a failed
 
 - Branching out to actor/actress biographies. Creating wider usage on discussions and expansion on unique topics.
 
-- Section for current trending films and shows 
+- Section for current trending films and shows. 
 
-- Displaying a random 5 cards which will automatically load when application opened. Links directly to the films following a search
+- Displaying a random 5 cards which will automatically load when application opened. Links directly to the films following a search.
 
 - Clicking image will take user directly to a wider description and detailed review of the film / show.
 
-- Previous search history
+- To add previous search history.
 
 ## Projects Elements:
 
