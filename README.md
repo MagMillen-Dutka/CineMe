@@ -43,12 +43,6 @@ Deployed website can be found here: https://magmillen-dutka.github.io/CineMe/
 ![Search Title](image.png)
 ![Receive Results](image-1.png)
 
-Please find the source code located here in repository: 
-https://github.com/MagMillen-Dutka/CineMe
-
-Deployed website can be found here: 
-https://magmillen-dutka.github.io/CineMe/
-
 ## Our Difficulties:
 
 - API sourcing: First was paid IMDb API ratings which was scrapped, Second was RottenTomatos API ratings which was ceased in updates (out of date) Lastly, we found our 3rd API which was free usage of TVmaze API.
