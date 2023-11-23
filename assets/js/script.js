@@ -1,7 +1,6 @@
 var searchForm = document.getElementById('search-form');
 var searchInput = document.getElementById('search-input');
-var searchResults = document.getElementById('search-results');
-var trendingMovieEl=document.getElementById('trending-movies');
+var searchResults = document.getElementById('cardsContainer');
 var tvMazeAPIEl = 'Jdep9pFBwdLLZclOFukZ_VSdjGBpRrLw ';
 
 searchForm.addEventListener('submit', function(event) {
@@ -13,57 +12,27 @@ searchForm.addEventListener('submit', function(event) {
   fetch(`https://api.tvmaze.com/search/shows?q=${searchQuery}`)
     .then(response => response.json())
     .then(data => {
-    for(var i=0; i<data.length; i++){
-        console.log(data[i].show.image.medium)
-        var showCard =document.createElement('img');
-        searchResults.appendChild(showCard);
-        showCard.setAttribute("src",`${data[i].show.image.medium}`)
-
-        var showTitle = document.createElement('h2')
+        for(var i=0; i<data.length; i++){
+        console.log(data[i].show.image.medium);
+        
+        var showTitle = document.createElement('h3')
         showTitle.textContent = `${data[i].show.name}`
         searchResults.appendChild(showTitle)
         console.log(showTitle)
 
-    }
-      // Filter the movie data based on the search query
-      const filteredResults = data.filter(result => result.show.name.toLowerCase().includes(searchQuery.toLowerCase()));
+        var showRating = document.createElement('h6')
+        showRating.textContent = `Rating: ${data[i].show.rating.average}`
+        searchResults.appendChild(showRating)
+        console.log(showRating)
 
-      console.log(data);
-     //console.log(filteredResults);
-
-      
-      // Display the filtered movie results to the user
-      //searchResults.innerHTML = '';
-      filteredResults.forEach(result => {
-        const resultElement = document.createElement('div');
-        resultElement.textContent = result.show.name;
-        searchResults.appendChild(resultElement);
-      });
-    })
-    .catch(error => {
-     console.error('Error:', error);
-    });
+      
+        var showCard = document.createElement('img');
+        showCard.setAttribute("src",`${data[i].show.image.medium}`);
+        showCard.onclick = function() {
+            location.href = `${data[i].url}`;
+        };
+        searchResults.appendChild(showCard);
+        
+        
+    }})
 });
-
-// Code below here is for showing the rating - Needs amendments to fit code above
-
-const APIURL = "https://api.themoviedb.org/3/discover/movie?api_key=04c35731a5ee918f014970082a0088b1";
-const IMGPATH = "https://image.tmdb.org/t/p/w1280";
-const SEARCHAPI =
-"https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
-
-const main = document.getElementById("content");
-const form = document.getElementById("form");
-const search = document.getElementById("search");
-
-// Code missing here to tie the 2nd API to the vote code below.
-
-    function getClassByRate(vote) {
-    if (vote >= 8) {
-    return "green";
-    } else if (vote >= 5) {
-    return "orange";
-    } else {
-    return "red";
-    }
-    }
