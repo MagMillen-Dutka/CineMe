@@ -40,8 +40,8 @@ Please find the source code located here in repository: https://github.com/MagMi
 
 Deployed website can be found here: https://magmillen-dutka.github.io/CineMe/
 
-![Search Title](image.png)
-![Receive Results](image-1.png)
+![Search Title](./assets/images/image.png)
+![Receive Results](./assets/images/image-1.png)
 
 ## Our Difficulties:
 
